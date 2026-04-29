@@ -1,0 +1,49 @@
+n,edge_size,average_degree,method,lambda,instances,runs_per_instance,optimality_rate,optimality_rate_std,feasibility_rate,feasibility_rate_std,approximation_ratio,approximation_ratio_std,avg_runtime_s,notes
+8,3,5,qaoa,0.3,100,5,0.670000,0.330034,0.288000,0.271396,1.089429,0.090670,0.820236,QAOA COBYLA default; std columns computed across five run-level rates
+8,3,5,annealer,0.3,100,5,,,0.000000,0.000000,,,3.215466,Simulated annealing; std columns computed across five run-level rates
+8,3,5,qaoa,1,100,5,0.863869,0.241427,0.960000,0.020976,1.031683,0.059139,0.696265,QAOA COBYLA default; std columns computed across five run-level rates
+8,3,5,annealer,1,100,5,1.000000,0.000000,0.378000,0.019391,1.000000,0.000000,3.231925,Simulated annealing; std columns computed across five run-level rates
+8,3,5,qaoa,3,100,5,0.437557,0.230091,0.974000,0.019596,1.142608,0.082173,0.780475,QAOA COBYLA default; std columns computed across five run-level rates
+8,3,5,annealer,3,100,5,1.000000,0.000000,0.994000,0.008000,1.000000,0.000000,3.200478,Simulated annealing; std columns computed across five run-level rates
+9,3,5,qaoa,0.3,100,5,0.553602,0.428728,0.370000,0.317679,1.077247,0.082592,1.051817,QAOA COBYLA default; std columns computed across five run-level rates
+9,3,5,annealer,0.3,100,5,1.000000,0.000000,0.010000,0.000000,1.000000,0.000000,3.956422,Simulated annealing; std columns computed across five run-level rates
+9,3,5,qaoa,1,100,5,0.853980,0.282026,0.996000,0.004899,1.033920,0.066837,0.943070,QAOA COBYLA default; std columns computed across five run-level rates
+9,3,5,annealer,1,100,5,1.000000,0.000000,0.786000,0.022450,1.000000,0.000000,3.972491,Simulated annealing; std columns computed across five run-level rates
+9,3,5,qaoa,3,100,5,0.262000,0.177696,1.000000,0.000000,1.167401,0.060519,1.022053,QAOA COBYLA default; std columns computed across five run-level rates
+9,3,5,annealer,3,100,5,1.000000,0.000000,1.000000,0.000000,1.000000,0.000000,3.944984,Simulated annealing; std columns computed across five run-level rates
+10,3,5,qaoa,0.3,100,5,0.537037,0.465917,0.262000,0.296068,1.216220,0.254668,1.309018,QAOA COBYLA default; std columns computed across five run-level rates
+10,3,5,annealer,0.3,100,5,,,0.000000,0.000000,,,4.784351,Simulated annealing; std columns computed across five run-level rates
+10,3,5,qaoa,1,100,5,0.783441,0.292184,0.988000,0.009798,1.050422,0.081173,1.168276,QAOA COBYLA default; std columns computed across five run-level rates
+10,3,5,annealer,1,100,5,1.000000,0.000000,0.486000,0.017436,1.000000,0.000000,4.793021,Simulated annealing; std columns computed across five run-level rates
+10,3,5,qaoa,3,100,5,0.202649,0.184551,0.974000,0.021541,1.227608,0.105988,1.263846,QAOA COBYLA default; std columns computed across five run-level rates
+10,3,5,annealer,3,100,5,1.000000,0.000000,0.998000,0.004000,1.000000,0.000000,4.765996,Simulated annealing; std columns computed across five run-level rates
+11,3,5,qaoa,0.3,100,5,0.491573,0.448368,0.422000,0.344407,1.143965,0.137539,1.476150,QAOA COBYLA default; std columns computed across five run-level rates
+11,3,5,annealer,0.3,100,5,1.000000,0.000000,0.014000,0.004899,1.000000,0.000000,5.715386,Simulated annealing; std columns computed across five run-level rates
+11,3,5,qaoa,1,100,5,0.666000,0.325306,1.000000,0.000000,1.094217,0.113904,1.452252,QAOA COBYLA default; std columns computed across five run-level rates
+11,3,5,annealer,1,100,5,1.000000,0.000000,0.864000,0.032000,1.000000,0.000000,5.713879,Simulated annealing; std columns computed across five run-level rates
+11,3,5,qaoa,3,100,5,0.104000,0.062801,1.000000,0.000000,1.283164,0.043915,1.505742,QAOA COBYLA default; std columns computed across five run-level rates
+11,3,5,annealer,3,100,5,1.000000,0.000000,1.000000,0.000000,1.000000,0.000000,5.680291,Simulated annealing; std columns computed across five run-level rates
+12,3,5,qaoa,0.3,100,5,0.538121,0.370452,0.332000,0.294713,1.149733,0.141402,1.756464,QAOA COBYLA default; std columns computed across five run-level rates
+12,3,5,annealer,0.3,100,5,1.000000,0.000000,0.020000,0.000000,1.000000,0.000000,6.724767,Simulated annealing; std columns computed across five run-level rates
+12,3,5,qaoa,1,100,5,0.414209,0.265692,0.980000,0.025298,1.155637,0.134907,1.588393,QAOA COBYLA default; std columns computed across five run-level rates
+12,3,5,annealer,1,100,5,1.000000,0.000000,0.582000,0.035440,1.000000,0.000000,6.722507,Simulated annealing; std columns computed across five run-level rates
+12,3,5,qaoa,3,100,5,0.087444,0.117161,0.976000,0.018547,1.329800,0.119639,1.685649,QAOA COBYLA default; std columns computed across five run-level rates
+12,3,5,annealer,3,100,5,1.000000,0.000000,1.000000,0.000000,1.000000,0.000000,6.692937,Simulated annealing; std columns computed across five run-level rates
+13,3,5,qaoa,0.3,100,5,0.457814,0.353705,0.498000,0.381439,1.135615,0.135019,2.183982,QAOA COBYLA default; std columns computed across five run-level rates
+13,3,5,annealer,0.3,100,5,1.000000,0.000000,0.098000,0.007483,1.000000,0.000000,7.832668,Simulated annealing; std columns computed across five run-level rates
+13,3,5,qaoa,1,100,5,0.370000,0.272029,1.000000,0.000000,1.168077,0.148396,2.029030,QAOA COBYLA default; std columns computed across five run-level rates
+13,3,5,annealer,1,100,5,1.000000,0.000000,0.898000,0.030594,1.000000,0.000000,7.824197,Simulated annealing; std columns computed across five run-level rates
+13,3,5,qaoa,3,100,5,0.048000,0.044900,1.000000,0.000000,1.342604,0.022586,2.248580,QAOA COBYLA default; std columns computed across five run-level rates
+13,3,5,annealer,3,100,5,1.000000,0.000000,1.000000,0.000000,1.000000,0.000000,7.781625,Simulated annealing; std columns computed across five run-level rates
+14,3,5,qaoa,0.3,100,5,0.375685,0.334940,0.432000,0.331264,1.218141,0.187312,2.926273,QAOA COBYLA default; std columns computed across five run-level rates
+14,3,5,annealer,0.3,100,5,1.000000,0.000000,0.120000,0.000000,1.000000,0.000000,8.958827,Simulated annealing; std columns computed across five run-level rates
+14,3,5,qaoa,1,100,5,0.183161,0.134595,0.962000,0.053066,1.266304,0.160749,2.806395,QAOA COBYLA default; std columns computed across five run-level rates
+14,3,5,annealer,1,100,5,1.000000,0.000000,0.618000,0.024819,1.000000,0.000000,8.940889,Simulated annealing; std columns computed across five run-level rates
+14,3,5,qaoa,3,100,5,0.035448,0.035266,0.962000,0.025612,1.422987,0.115765,2.871221,QAOA COBYLA default; std columns computed across five run-level rates
+14,3,5,annealer,3,100,5,1.000000,0.000000,1.000000,0.000000,1.000000,0.000000,8.905967,Simulated annealing; std columns computed across five run-level rates
+15,3,5,qaoa,0.3,100,5,0.366608,0.267779,0.566000,0.390722,1.269927,0.213696,2.186546,QAOA COBYLA default; std columns computed across five run-level rates
+15,3,5,annealer,0.3,100,5,1.000000,0.000000,0.110000,0.000000,1.000000,0.000000,10.226014,Simulated annealing; std columns computed across five run-level rates
+15,3,5,qaoa,1,100,5,0.102000,0.092607,0.998000,0.004000,1.268144,0.112219,2.073277,QAOA COBYLA default; std columns computed across five run-level rates
+15,3,5,annealer,1,100,5,1.000000,0.000000,0.930000,0.014142,1.000000,0.000000,10.179581,Simulated annealing; std columns computed across five run-level rates
+15,3,5,qaoa,3,100,5,0.010000,0.006325,0.996000,0.008000,1.393569,0.025357,2.122957,QAOA COBYLA default; std columns computed across five run-level rates
+15,3,5,annealer,3,100,5,1.000000,0.000000,1.000000,0.000000,1.000000,0.000000,10.139948,Simulated annealing; std columns computed across five run-level rates
