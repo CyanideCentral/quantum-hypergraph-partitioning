@@ -10,21 +10,14 @@ This repository contains the code and data needed to reproduce the hypergraph pa
 - `scripts/generate_figures.py`: regenerates the LaTeX source for the optimality and feasibility plots from the summary CSV.
 - `scripts/run_experiment.py`: reruns QAOA and simulated annealing on all instances from the dataset.
 
-## Regenerate the first two plots
-
-```bash
-python scripts/generate_figures.py
-pdflatex -interaction=nonstopmode -halt-on-error -output-directory figures/qaoa_sa_comparison figures/qaoa_sa_comparison/figures.tex
-```
-
-This writes `figures/qaoa_sa_comparison/figures.tex` containing only the optimality-rate and feasibility-rate figures.
-
-## Rerun the experiment
-
-The full rerun needs the project dependencies:
+## Reproducing the results
 
 ```bash
 uv sync
 uv run python scripts/run_experiment.py
 uv run python scripts/generate_figures.py
+pdflatex -interaction=nonstopmode -halt-on-error -output-directory figures/qaoa_sa_comparison figures/qaoa_sa_comparison/figures.tex
 ```
+
+This reruns the experiments and writes `figures/qaoa_sa_comparison/figures.tex` containing the optimality-rate and feasibility-rate figures.
+
