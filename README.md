@@ -1,6 +1,6 @@
 # Quantum Hypergraph Partitioning
 
-This repository hold code and data for reproducing hypergraph partitioning experiment used for the plots in our paper Quantum Hypergraph Partitioning, Q-Data '26.
+This repository contains the code and data needed to reproduce the hypergraph partitioning experiments used for the plots in our paper, *Quantum Hypergraph Partitioning* (Q-Data '26).
 
 ## Contents
 
@@ -28,5 +28,3 @@ uv sync
 uv run python scripts/run_experiment.py
 uv run python scripts/generate_figures.py
 ```
-
-The committed summary CSV is the source for the checked-in figure. Rerunning may produce small runtime changes, and solver/library version changes can affect stochastic optimizer results.
